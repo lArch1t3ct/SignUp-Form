@@ -10,3 +10,59 @@
 }
 
 /* My CSS Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.background-image {
+    background-image: url("../img/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 25vw;
+}
+
+
+.background-image > p {
+    color: white;
+    text-align: center;
+}
+
+.background-image > p > a {
+    color: white;
+}
+
+.odin-div {
+    background-color: rgba(0,0,0,0.5);
+    height: 15vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 20vh;
+    width: 25vw;
+}
+
+.odin-div img {
+    height: 13vh;
+}
+
+.odin-div h1 {
+    display: inline;
+    color: white;
+    font-family: norsebold, sans-serif;
+    font-size: 9vh;
+}
